@@ -1,0 +1,353 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: Muli, Varela, sans-serif; }
+
+.bg-blue {
+  background-color: #48C6B2 !important; }
+
+.navbar-brand {
+  font-family: Muli, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 60px; }
+
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  background-color: #fff !important;
+  border-radius: .2rem !important; }
+
+.nav-link {
+  font-family: Muli, sans-serif;
+  color: #FFFFFF !important; }
+
+.header {
+  width: 100%;
+  height: 580px;
+  background-image: url(../Images/black3.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative; }
+
+.arrow2 {
+  animation: slide2 1s ease-in-out infinite; }
+
+@keyframes slide2 {
+  0%,
+   100% {
+    transform: translate(0, 0) rotate(45deg); }
+  50% {
+    transform: translate(10px, 10px) rotate(45deg); } }
+.container-text {
+  width: 50%;
+  margin-top: 250px;
+  margin-left: 100px;
+  position: absolute; }
+
+.header-text {
+  font-size: 60px;
+  font-family: Varela, sans-serif;
+  margin-bottom: 0px;
+  color: #ffffff; }
+
+.letter {
+  color: #48C6B2; }
+
+.sub-text {
+  font-size: 20px;
+  color: #48C6B2;
+  font-weight: 400;
+  padding-left: 180px;
+  font-family: Muli, sans-serif; }
+
+.section-one {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.doctor-image {
+  height: 280px;
+  background-image: url(../Images/doctor3.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+a, .title-option {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Muli, sans-serif;
+  text-decoration: none;
+  color: #48C6B2; }
+
+a, .title-option:hover {
+  text-decoration: none;
+  color: #000; }
+
+.space {
+  padding-left: 15px; }
+
+.content-title {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.4em;
+  font-family: Varela, sans-serif; }
+
+.content-text {
+  font-size: 18px;
+  font-family: Muli, sans-serif; }
+
+.btn-info {
+  font-family: Muli, sans-serif;
+  padding: 7px 10px !important;
+  margin-top: 10px;
+  background-color: #48C6B2 !important;
+  color: #fff !important;
+  border-color: #48C6B2 !important; }
+
+.section-two {
+  position: relative;
+  color: #000;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #48c6b2 !important; }
+
+.section-title {
+  font-size: 30px;
+  font-family: Varela, sans-serif; }
+
+.section-title2 {
+  font-size: 24px;
+  padding-top: 10px;
+  font-family: Varela, sans-serif; }
+
+.paragraph {
+  font-size: 22px;
+  padding-top: 10px;
+  font-family: Muli, sans-serif; }
+
+.department {
+  width: 70%;
+  margin-top: 30px; }
+
+.section-three, .section-four {
+  padding-top: 60px;
+  padding-bottom: 50px; }
+
+.section-five {
+  padding-top: 5px;
+  padding-bottom: 60px; }
+
+.img {
+  margin-top: 40px;
+  width: 150px;
+  height: 150px; }
+
+.img2 {
+  margin-top: 10px;
+  width: 220px;
+  height: 200px; }
+
+.Pro-description {
+  display: flex; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 0; }
+
+.right-side {
+  background-color: #51CBBD;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 10px;
+  height: 400px; }
+
+.cont {
+  margin-top: 50px !important;
+  z-index: 1; }
+
+.left-side {
+  padding-top: 60px;
+  padding-right: 8% !important;
+  padding-bottom: 50px;
+  padding-left: 12% !important;
+  height: 350px;
+  margin-top: 50px;
+  background-color: #48c6b2 !important; }
+
+.text {
+  line-height: 2.0em; }
+
+.about-person {
+  margin: 25px; }
+
+.position {
+  font-size: 16px;
+  color: #48C6B2;
+  font-weight: 400;
+  font-family: Muli, sans-serif; }
+
+.form {
+  margin-top: 30px;
+  width: 100%; }
+
+.form-item {
+  display: flex; }
+
+.form-control {
+  margin: 5px 5px !important; }
+
+.textarea {
+  margin-top: 20px  !important;
+  margin-left: 50px  !important;
+  width: 85%;
+  color: #fff !important; }
+
+.btn-reg {
+  font-family: Muli, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 7px 10px !important;
+  background-color: #000 !important;
+  color: #48C6B2 !important;
+  border-color: #000 !important;
+  margin-top: 15px; }
+
+.btn-submit {
+  font-family: Muli, sans-serif;
+  padding: 7px 10px !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #000 !important;
+  margin-top: 12px;
+  margin-bottom: 25px;
+  margin-left: 530px; }
+
+.sponsor {
+  margin-top: 20px;
+  padding-left: 50px; }
+
+.footer {
+  background-color: #48C6B2;
+  color: #000 !important;
+  padding: 20px; }
+
+.footer-text {
+  text-align: center;
+  font-family: Muli, sans-serif; }
+
+@media (min-width: 769px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 2rem !important;
+    padding-left: 1.5rem !important; } }
+@media (max-width: 468px) {
+  .navbar-brand {
+    margin-left: 10px; }
+
+  .navbar-toggler {
+    margin-right: 10px; }
+
+  .container-text {
+    margin-left: 50px; }
+
+  .header-text {
+    font-size: 30px; }
+
+  .sub-text {
+    padding-left: 0px; }
+
+  .doctor-image {
+    height: 150px; }
+
+  .Pro-description {
+    display: block; }
+
+  .form-item, .description {
+    display: block; }
+
+  .form-item {
+    width: 90%; }
+
+  .text-left {
+    padding-left: 70px !important; }
+
+  .textarea {
+    width: 90%;
+    margin-left: 15px  !important; }
+
+  .btn-submit {
+    margin-left: 210px; }
+
+  .section-one {
+    padding-top: 30px !important;
+    padding-bottom: 20px !important; }
+
+  .doctor-content {
+    padding-top: 20px;
+    padding-left: 30px !important;
+    padding-right: 30px !important; }
+
+  .title-option {
+    font-size: 18px;
+    text-align: center; }
+
+  .space {
+    padding-left: 20px; }
+
+  .content-title {
+    font-size: 20px; }
+
+  .content-text {
+    font-size: 16px; }
+
+  .paragraph {
+    font-size: 17.5px;
+    padding-top: 10px;
+    padding-left: 15px !important;
+    padding-right: 15px !important; }
+
+  .about-person {
+    margin: 0px; }
+
+  .img {
+    margin-top: 20px;
+    width: 220px;
+    height: 200px; }
+
+  .img2 {
+    margin-top: 10px;
+    width: 220px;
+    height: 220px; }
+
+  .department {
+    width: 90%; }
+
+  .card {
+    margin-bottom: 25px; }
+
+  .section-three {
+    padding-bottom: 0px; }
+
+  .section-four {
+    padding-top: 30px; }
+
+  .left-side, .right-side {
+    height: auto; }
+
+  .form-control {
+    margin: 5px 15px !important; } }
+
+/*# sourceMappingURL=style.css.map */
